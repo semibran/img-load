@@ -1,0 +1,17 @@
+{
+ "name": "img-load",
+ "version": "0.1.0",
+ "description": "Load an image for the browser from a given path",
+ "keywords": [
+  "load",
+  "image",
+  "img"
+ ],
+ "main": "index.js",
+ "license": "MIT",
+ "author": "Brandon Semilla (https://github.com/semibran)",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/semibran/img-load.git"
+ }
+}
