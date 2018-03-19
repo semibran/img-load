@@ -1,26 +1,23 @@
 # img-load
-> Load an image for the browser from a given path
+> minimal node-style `<img>` loader
 
-## install
-```sh
-npm install img-load
-```
-
-## usage
 ```js
-const load = require('img-load')
+const loadImage = require("img-load")
 
-load('images/foo.png', (error, image) => {
-  if (error) throw error
+loadImage("images/foo.png", (err, image) => {
+  if (err) throw err
   document.body.appendChild(image)
 })
 ```
 
-### `image = load(path, callback)`
-Creates an [`HTMLImageElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image) instance using the given `path`. Typically, `image` will be updated with the requested data right before `callback` is executed.
+## usage
+[![npm badge]][npm package]
 
-- `path`: The URL of the desired image
-- `callback`: The callback to be executed upon completion
+### `load(path, callback(err, image))`
+Asynchronously loads an [`HTMLImageElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image) using the given `path`, then executes `callback` upon completion.
 
-## license
-[MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)
+* `path`: The URL of the desired image
+* `callback`: The callback function to be executed upon completion
+
+[npm package]: https://www.npmjs.com/package/img-load
+[npm badge]:   https://nodei.co/npm/img-load.png?mini
