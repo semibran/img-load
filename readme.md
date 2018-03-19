@@ -1,5 +1,5 @@
 # img-load
-> minimal node-style `<img>` loader
+> minimal node-style `<img>` loader for the browser
 
 ```js
 const loadImage = require("img-load")
