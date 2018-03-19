@@ -2,7 +2,7 @@
 > minimal node-style `<img>` loader for the browser
 
 ```js
-const loadImage = require("img-load")
+import loadImage from "img-load"
 
 loadImage("images/foo.png", (err, image) => {
   if (err) throw err
