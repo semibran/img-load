@@ -1,21 +1,17 @@
 {
   "name": "img-load",
   "version": "1.0.0",
-  "description": "minimal node-style <img> loader for the browser",
+  "description": "tiny promise-based <img> loader for the browser",
   "author": "semibran (Brandon Semilla)",
   "repository": "semibran/img-load",
   "license": "MIT",
   "main": "lib/img-load.js",
   "keywords": [
-    "image",
-    "load-image",
-    "image-load",
-    "img",
-    "load-img",
-    "img-load",
-    "html",
+    "image-loader",
+    "async",
+    "promise",
+    "browser",
     "fast",
-    "lightweight",
-    "minimal"
+    "tiny"
   ]
 }
